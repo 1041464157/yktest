@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<title>临床医生抓狂大测试</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script>
+		document.onreadystatechange = completeLoading;
+		//加载状态为complete时移除loading效果
+		function completeLoading() {
+			if (document.readyState == "complete") {
+				var loadingMask = document.getElementById('loadingDiv');
+				loadingMask.parentNode.removeChild(loadingMask);
+			}
+		}
+	</script>
+	<!-- s -->
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script>
+		function wxInput(obj) {
+			ST = obj.signature;
+		}
+	</script>
+	<!-- wxapiauth.hk515.com -->
+	<script src="http://wxapiauth.hk515.com/api/wechat/Signature?appId=wxb4a25f9e39926b54&noncestr=1428560985000&timestamp=1428560985000&callback=wxInput"></script>
+	<script>
+		var sTitle='临床医生之痛，测测你的痛苦分级';//朋友
+		var sDesc='临床医生之痛，测测你的痛苦分级';
+		var sTitle2='临床医生之痛，测测你的痛苦分级'; //朋友圈
+		var sLink='http://huodong.hk515.com/yikehuodong/yiketest/index.html';//分享的链接,要修改
+		var imgUrl='http://huodong.hk515.com/yikehuodong/yiketest/images/share.png';//分享图片的地址,要修改
+	</script>
+	<script src="js/wxShare.js"></script>
+	<!-- s -->
+
+	<!-- 百度埋线 -->
+	<script>
+//	var _hmt = _hmt || [];
+//	(function() {
+//	var hm = document.createElement("script");
+//	hm.src = "//hm.baidu.com/hm.js?93dce326341a9dbc085a70e8a6514e87";
+//	var s = document.getElementsByTagName("script")[0];
+//	s.parentNode.insertBefore(hm, s);
+//	})();
+	</script>
+	<script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+</head>
+<body>
+<!--加载页医客logo svg-->
+<div class="loadingDiv" id="loadingDiv">
+	<div class="container">
+		<div class="logo logo1 logo-cover">
+		</div>
+		<div class="logo logo1" style="box-shadow: 0px 4px 4px 1px rgb(217, 217, 217);">
+			<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+		 y="0px" width="130px" height="129px" viewBox="0 0 130 129" style="enable-background:new 0 0 130 129;" xml:space="preserve">
+				<g>
+					<g>
+						<path style="fill:#FFFFFF;stroke:#fff;stroke-width:0.5;stroke-miterlimit:22.9256;" d="M120.93,97.106
+							c0,12.791-10.463,23.254-23.253,23.254H30.796c-12.789,0-23.252-10.463-23.252-23.254V30.226
+							c0-12.789,10.463-23.253,23.252-23.253h66.881c12.79,0,23.253,10.464,23.253,23.253V97.106z"/>
+						<g>
+							<g>
+								<g>
+									<path style="fill:#FFD900;" d="M72.717,92.214c-7.377,0-9.778-5.092-9.778-9.621l-17.69,0.004c0,13.41,0,12.178,0,12.178
+										c0,10.361,8.381,18.742,18.741,18.742c10.365,0,19.177-8.381,19.177-18.742c0-9.109,0-11.01,0-11.947
+										C82.94,86.771,79.31,92.214,72.717,92.214z"/>
+									<path style="fill:#6FBA2C;" d="M62.938,71.052h-0.717c-0.44,0-0.799-0.295-0.799-0.656v-2.281H60.73
+										c-0.281,0-0.514-0.232-0.514-0.516v-0.404c-0.003,0-0.005-0.002-0.005-0.002c-0.217-0.057-0.446-0.119-0.694-0.189
+										c-0.005-0.002-0.011-0.004-0.018-0.006c-0.117-0.033-0.241-0.068-0.367-0.105c-0.137-0.039-0.278-0.082-0.427-0.127
+										c-4.553-1.369-11.112-8.115-14.088-14.001c-1.445-2.856-2.054-5.729-1.169-7.466c0.113-0.226,0.245-0.428,0.379-0.622
+										c-4.642,0-11.014,0.006-11.145,0.009C22.506,44.892,14.33,53.405,14.33,63.638c0,10.363,8.382,18.959,18.745,18.959
+										c13.407,0,12.39,0,12.39,0l17.474-0.004V71.052z"/>
+									<path style="fill:#20AEE5;" d="M45.058,46.388c-0.332,0.655,0,1.748,0.42,2.988c0.053,0.157,0.112,0.319,0.173,0.484
+										c0.024,0.053,0.047,0.108,0.069,0.163c0.044,0.112,0.09,0.224,0.139,0.34c0.029,0.068,0.064,0.141,0.094,0.211
+										c0.046,0.103,0.09,0.203,0.139,0.308c0.037,0.077,0.075,0.155,0.113,0.232c0.049,0.101,0.097,0.201,0.148,0.304
+										c0.041,0.08,0.086,0.163,0.126,0.245c0.053,0.1,0.104,0.199,0.159,0.301c0.044,0.086,0.095,0.173,0.142,0.259
+										c0.058,0.101,0.11,0.2,0.168,0.302c0.051,0.087,0.104,0.176,0.157,0.266c0.059,0.1,0.115,0.199,0.177,0.301
+										c0.056,0.092,0.113,0.185,0.168,0.277c0.063,0.099,0.122,0.198,0.187,0.298c0.06,0.095,0.12,0.189,0.181,0.282
+										c0.064,0.1,0.126,0.199,0.192,0.298c0.064,0.097,0.129,0.192,0.195,0.289c0.066,0.098,0.13,0.196,0.199,0.295
+										c0.066,0.098,0.135,0.195,0.203,0.293c0.068,0.097,0.137,0.193,0.204,0.291c0.07,0.101,0.146,0.2,0.217,0.299
+										c0.07,0.096,0.139,0.19,0.21,0.285c0.076,0.102,0.152,0.202,0.227,0.303c0.072,0.093,0.143,0.186,0.213,0.277
+										c0.08,0.103,0.157,0.206,0.239,0.309c0.071,0.09,0.142,0.18,0.213,0.27c0.083,0.103,0.167,0.204,0.248,0.307
+										c0.072,0.088,0.146,0.177,0.217,0.266c0.086,0.102,0.172,0.204,0.259,0.307c0.072,0.085,0.144,0.169,0.217,0.254
+										c0.088,0.104,0.177,0.207,0.268,0.309c0.072,0.081,0.144,0.163,0.214,0.243c0.091,0.104,0.185,0.205,0.277,0.308
+										c0.07,0.078,0.144,0.156,0.214,0.234c0.096,0.102,0.188,0.202,0.285,0.303c0.071,0.075,0.14,0.148,0.213,0.223
+										c0.098,0.101,0.195,0.202,0.292,0.301c0.071,0.07,0.142,0.142,0.212,0.211c0.098,0.1,0.195,0.198,0.297,0.294
+										c0.068,0.067,0.138,0.134,0.207,0.2c0.103,0.097,0.202,0.193,0.305,0.288c0.066,0.063,0.135,0.122,0.201,0.184
+										c0.104,0.096,0.208,0.191,0.313,0.283c0.063,0.057,0.126,0.111,0.19,0.167c0.108,0.094,0.215,0.188,0.323,0.278
+										c0.06,0.05,0.119,0.098,0.181,0.147c0.111,0.092,0.22,0.184,0.332,0.271c0.054,0.045,0.112,0.087,0.168,0.13
+										c0.113,0.089,0.229,0.178,0.342,0.263c0.051,0.038,0.103,0.073,0.152,0.11c0.117,0.087,0.234,0.174,0.354,0.255
+										c0.04,0.029,0.082,0.055,0.122,0.083c0.128,0.086,0.255,0.173,0.38,0.253c0.021,0.014,0.043,0.026,0.064,0.039
+										c0.633,0.401,1.248,0.726,1.835,0.952c0.015,0.005,0.029,0.01,0.037,0.016c0.152,0.058,0.306,0.109,0.453,0.154
+										c0.177,0.053,0.345,0.102,0.503,0.148c0.157,0.047,0.308,0.09,0.453,0.131c0.075-0.189,0.261-0.322,0.474-0.322h6.513
+										c0.25,0,0.449,0.182,0.496,0.418c0.379-0.102,0.805-0.223,1.305-0.375c0.151-0.045,0.304-0.099,0.459-0.157
+										c0.014-0.005,0.027-0.011,0.041-0.016v-0.001c0.598-0.231,1.23-0.565,1.875-0.978c0.021-0.014,0.041-0.024,0.06-0.038
+										c0.13-0.082,0.257-0.171,0.387-0.26c0.042-0.028,0.082-0.055,0.124-0.084c0.119-0.084,0.24-0.173,0.36-0.262
+										c0.051-0.037,0.104-0.074,0.156-0.112c0.114-0.087,0.229-0.178,0.342-0.269c0.062-0.046,0.117-0.089,0.177-0.136
+										c0.108-0.089,0.222-0.182,0.332-0.274c0.064-0.053,0.126-0.104,0.188-0.156c0.108-0.092,0.216-0.187,0.322-0.28
+										c0.066-0.06,0.136-0.116,0.199-0.176c0.106-0.094,0.212-0.19,0.316-0.287c0.069-0.063,0.14-0.126,0.208-0.191
+										c0.102-0.097,0.205-0.195,0.306-0.294c0.07-0.068,0.144-0.136,0.214-0.205c0.102-0.1,0.199-0.2,0.302-0.301
+										c0.07-0.072,0.144-0.145,0.214-0.218c0.098-0.099,0.195-0.202,0.295-0.305c0.072-0.077,0.144-0.153,0.219-0.231
+										c0.093-0.102,0.189-0.203,0.283-0.306c0.073-0.082,0.15-0.164,0.224-0.246c0.093-0.102,0.182-0.205,0.274-0.308
+										c0.074-0.085,0.148-0.169,0.221-0.254c0.094-0.104,0.182-0.207,0.27-0.313c0.074-0.087,0.146-0.175,0.225-0.264
+										c0.084-0.103,0.168-0.205,0.254-0.308c0.074-0.093,0.148-0.185,0.224-0.276c0.082-0.103,0.165-0.205,0.243-0.307
+										c0.075-0.095,0.149-0.188,0.224-0.283c0.079-0.103,0.157-0.204,0.234-0.308c0.073-0.095,0.146-0.19,0.217-0.286
+										c0.075-0.103,0.152-0.204,0.228-0.306c0.071-0.098,0.142-0.195,0.213-0.293c0.07-0.101,0.142-0.2,0.212-0.3
+										c0.072-0.102,0.142-0.201,0.21-0.301c0.067-0.099,0.137-0.196,0.2-0.295c0.07-0.102,0.136-0.201,0.204-0.302
+										c0.061-0.096,0.127-0.194,0.189-0.29c0.066-0.102,0.131-0.203,0.192-0.304c0.062-0.096,0.121-0.191,0.183-0.285
+										c0.063-0.102,0.123-0.202,0.182-0.303c0.056-0.094,0.115-0.187,0.168-0.28c0.061-0.1,0.117-0.202,0.174-0.302
+										c0.053-0.091,0.105-0.182,0.152-0.271c0.056-0.103,0.112-0.202,0.168-0.303c0.047-0.088,0.093-0.175,0.139-0.261
+										c0.052-0.103,0.103-0.202,0.153-0.303c0.042-0.083,0.084-0.167,0.126-0.248c0.049-0.103,0.093-0.201,0.142-0.302
+										c0.035-0.078,0.075-0.158,0.11-0.234c0.045-0.104,0.088-0.206,0.131-0.308c0.029-0.069,0.063-0.143,0.09-0.213
+										c0.045-0.109,0.083-0.217,0.127-0.323c0.021-0.06,0.047-0.12,0.066-0.179c0.058-0.163,0.115-0.323,0.162-0.479
+										c0.346-1.125,0.663-2.057,0.354-2.665c-0.035-0.072-0.068-0.132-0.104-0.194l-0.036-13.757
+										c0-10.362-8.595-18.743-18.958-18.743c-10.36,0-18.958,8.381-18.958,18.743c0,3.193-0.002,13.566-0.002,13.566
+										C45.182,46.166,45.118,46.271,45.058,46.388z"/>
+									<path style="fill:#ED6D46;" d="M95.745,44.687c-0.135-0.003-9.316-0.002-11.28-0.002c0.159,0.281,0.316,0.604,0.432,0.833
+										c0.883,1.736,0.278,4.39-1.167,7.246c-2.979,5.886-9.537,12.632-14.09,14.001c-0.724,0.217-1.297,0.377-1.8,0.504
+										c-0.026,0.008-0.054,0.014-0.079,0.021v0.309c0,0.283-0.233,0.516-0.518,0.516h-0.664v2.281c0,0.361-0.362,0.656-0.798,0.656
+										h-0.775v11.33v0.01c0,3.75,2.081,7.758,7.928,7.758c5.961,0,7.97-5.334,7.97-7.768l0,0V70.394
+										c0.09-5.502,2.189-8.299,6.217-8.299c2.646,0,4.544,1.28,5.493,3.703c0.399,1.018,0.568,2.092,0.648,3.041
+										c2.036,0.338,3.593,2.094,3.593,4.225c0,2.373-1.925,4.297-4.297,4.297c-2.371,0-4.296-1.924-4.296-4.297
+										c0-1.895,1.236-3.484,2.94-4.055c-0.069-0.795-0.202-1.67-0.512-2.459c-0.637-1.631-1.774-2.392-3.57-2.392
+										c-3.164,0-3.954,3.343-3.954,6.614v11.824c6.479,0,12.179,0,12.179,0c10.361,0,18.742-8.596,18.742-18.959
+										C114.087,53.411,105.919,44.899,95.745,44.687z"/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+	      </svg>
+		</div>
+	</div>
+	<p style="color: #747474;margin: 78% auto 0;text-align: CENTER;">加载中…</p>
+</div>
+<div class="wrapper">
+	<div class="page page1" style="display:block;">
+		<img class="bg" src="images/bg1.png" alt=""/>
+		<img class="t1 animated fadeInLeft" src="images/t1.png" alt=""/>
+		<img class="t2 animated fadeInRight" src="images/t2.png" alt=""/>
+		<img class="t3" src="images/t3.png" alt=""/>
+		<img class="t4" src="images/t4.png" alt=""/>
+		<img class="t5 shake-hard infinite" src="images/t5.png" alt=""/>
+		<div class="form">
+			<img class="person" src="images/person.gif" alt=""/>
+			<div class="formlist">
+				<label>姓名:</label><input type="text" name="name" placeholder=""/>
+			</div>
+			<div class="formlist">
+				<label>入职年份:</label>
+				<span></span>
+				<select name="" id="year">
+					<option value=""></option>
+				</select>
+			</div>
+		</div>
+		<a href="###"><img class="btn" src="images/btn.png" alt=""/></a>
+	</div>
+	<div class="page page2" style="display: none;">
+		<div class="imglist clearfix" id="imglist">
+			<div class="p1"><img src="images/p1-1.png" alt=""/><span>30</span></div>
+			<img src="images/p2-1.png" alt=""/>
+			<img src="images/p3-1.png" alt=""/>
+			<img src="images/p4-1.png" alt=""/>
+			<img src="images/p5-1.png" alt=""/>
+			<img src="images/p6-1.png" alt=""/>
+			<img src="images/p7-1.png" alt=""/>
+			<div class="p8"></div>
+			<div class="p9"><img src="images/p9-1.png" alt=""/><span>10</span></div>
+			<img src="images/p10-1.png" alt=""/>
+			<img src="images/p11-1.png" alt=""/>
+			<img src="images/p12-1.png" alt=""/>
+			<img src="images/p13-1.png" alt=""/>
+			<img src="images/p14-1.png" alt=""/>
+			<img src="images/p15-1.png" alt=""/>
+		</div>
+		<div class="btns">
+			<a href="##"><img class="share animated pulse infinite" src="images/sharepic.png" alt=""/></a>
+			<a href="##"><img class="animated pulse infinite" src="images/go.png" alt=""/></a>
+		</div>
+	</div>
+	<div class="page page3" style="display: none;">
+		<a href="index-BP.html"><img class="animated pulse infinite" src="images/tiyan.png" alt=""/></a>
+	</div>
+</div>
+<div class="pop">
+	<div class="cover"></div>
+	<div class="pop-in">
+		<div class="ewm">
+		   <img src="images/ewm.png" alt=""/>
+		</div>
+	</div>
+	<p>长按保存图片，然后发送到朋友圈PK下谁更抓狂吧</p>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/html2canvas.js"></script>
+<script language="javascript">
+      $(function(){
+//		  写入入职年份
+	    var n=2016;
+		while(n>1946){
+			n--;
+			$("#year").append("<option value="+n+">"+n+"</option>");
+		}
+//		  表单非空判断
+		$(".btn").click(function(){
+            var name=$("input[name='name']").val();
+			var year=$("select option:checked").val();
+			if(name==""){
+				alert("请输入姓名");
+				return false;
+			}else if(year==""){
+				alert("请输入入职年份");
+				return false;
+			}
+//			抓狂指数计算
+			var years=2016-year;
+			var zk=0;
+			if(years==1){
+				zk=10;
+			}else if(years>=2&&years<=3){
+				zk=8;
+			}else if(years>=4&&years<=8){
+				zk=6;
+			}else if(years>=9&&years<=15){
+				zk=5;
+			}else if(years>=16&&years<=30){
+				zk=3;
+			}else if(years>=31){
+				zk=1;
+			}
+			$(".p1 span").text(years);
+			$(".p9 span").text(zk);
+			$(".p8").text("我是"+name+"医生");
+			$(".page1").fadeOut();
+			$(".page2").fadeIn();
+//			性格标签图片随机
+			var p2=(Math.floor(Math.random()*8))+1;
+			var p14=(Math.floor(Math.random()*3))+1;
+			var arr=[1,p2,p2,p2,p2,p2,p2,1,p2,p2,p2,p2,1,p14];
+			var img=document.querySelectorAll(".imglist img");
+			for(var index=0; index<img.length;index++){
+				$(img[index]).attr("src","images/p"+(index+1)+"-"+arr[index]+".png");
+			}
+			$(".pop-in").prepend($("#imglist").clone());
+			toBig(imgs);
+			toBig(divs);
+		});
+//		  点击分享生成图片
+		var clicked=1;
+        $(".share").click(function(){
+            $(".pop").show();
+			var winHeight = $(window).height();
+			var popin=$(".pop-in").height();
+			$(".pop-in").css("top",(winHeight-popin)/2.4);
+			if(clicked==1){
+				var div=document.querySelector(".pop-in");
+				var w = $(".pop-in").width();
+				var h = $(".pop-in").height();
+				var canvas = document.createElement("canvas");
+				canvas.width = w * 2;
+				canvas.height = h * 2;
+				canvas.style.width = w + "px";
+				canvas.style.height = h + "px";
+				var context = canvas.getContext("2d");
+//然后将画布缩放，将图像放大两倍画到画布上
+				var cenX=document.querySelector(".pop-in").offsetLeft*2;
+				var cenY=document.querySelector(".pop-in").offsetTop*2;
+				console.log(cenX,cenY);
+
+				context.translate(-cenX,-cenY);
+				context.scale(2,2);
+				html2canvas(div, {
+					canvas: canvas,
+					onrendered: function(canvas) {
+						var image = new Image();
+						image.id="newimg";
+						image.crossOrigin = "Anonymous";
+						image.src = canvas.toDataURL("image/png");
+						div.appendChild(image);
+					}
+				});
+				clicked=0;
+			}
+        });
+		$(".pop").click(function(){
+			$(".pop").hide();
+		});
+		$(".btns a:eq(1)").click(function(){
+			$(".page2").hide();
+			$(".page3").show();
+		});
+//		  图片随机翻转动画
+		var imgs=document.querySelectorAll(".imglist img");
+		var divs=document.querySelectorAll(".imglist div");
+		var endNum = 0;
+		var endNum2 = 0;
+			function toBig(obj){
+				for(var i=0;i<obj.length;i++){
+					obj[i].style.transition="";
+					obj[i].style.opacity=0;
+					obj[i].style.transform = 'rotateY(0deg) translateZ(-' + Math.random() * 500 + 'px)';
+					(function (i) {
+						setTimeout(function () {
+							motion(obj[i], "1.2s", function () {
+								this.style.opacity = 1;
+								this.style.transform = "rotateY(-360deg) translateZ(0)";
+							}, function () {
+								endNum2++;
+								if (endNum2 == obj.length) {
+									on = true;
+								}
+							})
+						}, Math.random() * 500)
+					})(i)
+				}
+			}
+			function motion(obj, time, fn, callback) {
+				obj.style.transition = time;
+				fn.call(obj);
+				var called = false;
+				obj.addEventListener("transitionend", function () {
+					if (!called) {
+						callback && callback.call(obj);
+						called = true;
+					}
+				}, false);
+			};
+	  });
+	</script>
+</body>
+</html>
