@@ -27,7 +27,7 @@
 	<script src="http://wxapiauth.hk515.com/api/wechat/Signature?appId=wxb4a25f9e39926b54&noncestr=1428560985000&timestamp=1428560985000&callback=wxInput"></script>
 	<script>
 		var sTitle='临床医生之痛，测测你的痛苦分级';//朋友
-		var sDesc='临床医生之痛，测测你的痛苦分级';
+		var sDesc='临床工作中你有遇到抓狂的时刻么，你有很容易抓狂么，快来测测你的抓狂指数吧。';
 		var sTitle2='临床医生之痛，测测你的痛苦分级'; //朋友圈
 		var sLink='http://huodong.hk515.com/yikehuodong/yiketest/index.html';//分享的链接,要修改
 		var imgUrl='http://huodong.hk515.com/yikehuodong/yiketest/images/share.png';//分享图片的地址,要修改
@@ -235,7 +235,7 @@
 			}
 			$(".p1 span").text(years);
 			$(".p9 span").text(zk);
-			$(".p8").text("我是"+name+"医生");
+			$(".p8").text("我是"+name+"医生").css("font-family","cartoon");
 			$(".page1").fadeOut();
 			$(".page2").fadeIn();
 //			性格标签图片随机
@@ -261,6 +261,7 @@
 				var div=$(".pop-in");
 				var w = div.width();
 				var h = div.height();
+//要将 canvas 的宽高设置成容器宽高的 2 倍
 				var canvas = document.createElement("canvas");
 				canvas.width = w * 2;
 				canvas.height = h * 2;
