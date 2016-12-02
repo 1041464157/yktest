@@ -258,9 +258,9 @@
 			var popin=$(".pop-in").height();
 			$(".pop-in").css("top",(winHeight-popin)/2.4);
 			if(clicked==1){
-				var div=document.querySelector(".pop-in");
-				var w = $(".pop-in").width();
-				var h = $(".pop-in").height();
+				var div=$(".pop-in");
+				var w = div.width();
+				var h = div.height();
 				var canvas = document.createElement("canvas");
 				canvas.width = w * 2;
 				canvas.height = h * 2;
@@ -268,10 +268,8 @@
 				canvas.style.height = h + "px";
 				var context = canvas.getContext("2d");
 //然后将画布缩放，将图像放大两倍画到画布上
-				var cenX=document.querySelector(".pop-in").offsetLeft*2;
-				var cenY=document.querySelector(".pop-in").offsetTop*2;
-				console.log(cenX,cenY);
-
+				var cenX=(div.offset().left)*2;
+				var cenY=(div.offset().top)*2;
 				context.translate(-cenX,-cenY);
 				context.scale(2,2);
 				html2canvas(div, {
@@ -281,7 +279,7 @@
 						image.id="newimg";
 						image.crossOrigin = "Anonymous";
 						image.src = canvas.toDataURL("image/png");
-						div.appendChild(image);
+						div.append(image);
 					}
 				});
 				clicked=0;
